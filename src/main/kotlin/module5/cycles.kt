@@ -25,10 +25,10 @@ fun main() {
     println("Sum of first $n number - $sum")
 }*/
 fun main() {
-    WhileFun(100)
+    whileFun(100)
     doWhileFun(100)
 }
-fun WhileFun(currentSum: Int) {
+fun whileFun(currentSum: Int) {
     var count = 0
     var sum = currentSum
     println("Enter a start number")
