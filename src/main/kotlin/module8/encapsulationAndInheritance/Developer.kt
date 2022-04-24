@@ -5,7 +5,7 @@ import kotlin.random.Random
 open class Developer(
     name: String,
     age: Int,
-    protected val experience: Int = 5
+    val experience: Int = 5
 ) : Person(name, age) {
     open val paradigm = "OOP"
     open fun writeCode() = println("programmer writing code")
