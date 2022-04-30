@@ -1,6 +1,6 @@
 package module7.Constructors
 
-import java.lang.invoke.TypeDescriptor
+//import java.lang.invoke.TypeDescriptor
 import kotlin.random.Random
 
 /*первый вариант
