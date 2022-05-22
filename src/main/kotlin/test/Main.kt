@@ -1,12 +1,6 @@
 package test
-
-enum class RGB { RED, GREEN, BLUE }
-
-inline fun <reified T : Enum<T>> printAllValues() {
-    print(enumValues<T>().joinToString { it.name })
-}
-
-
 fun main() {
-    printAllValues<RGB>()
+    val list = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9)
+    println(list.random())
+    println(list[(list.indices).random()])
 }
